@@ -7,13 +7,13 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
-		2F87E1EC19E553EB00F72377 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 2F87E1EB19E553EB00F72377 /* main.m */; };
-		2F87E1EF19E553EB00F72377 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 2F87E1EE19E553EB00F72377 /* AppDelegate.m */; };
 		2F87E1F219E553EB00F72377 /* Weibo.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = 2F87E1F019E553EB00F72377 /* Weibo.xcdatamodeld */; };
 		2F87E1FA19E553EB00F72377 /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 2F87E1F919E553EB00F72377 /* Images.xcassets */; };
 		2F87E1FD19E553EB00F72377 /* LaunchScreen.xib in Resources */ = {isa = PBXBuildFile; fileRef = 2F87E1FB19E553EB00F72377 /* LaunchScreen.xib */; };
 		2F87E20919E553EC00F72377 /* WeiboTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 2F87E20819E553EC00F72377 /* WeiboTests.m */; };
-		2F87E21419E5702A00F72377 /* ZYTabBarController.m in Sources */ = {isa = PBXBuildFile; fileRef = 2F87E21319E5702A00F72377 /* ZYTabBarController.m */; };
+		2F87E23019E672E900F72377 /* ZYTabBarController.m in Sources */ = {isa = PBXBuildFile; fileRef = 2F87E22119E672E900F72377 /* ZYTabBarController.m */; };
+		2F87E23119E672E900F72377 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 2F87E22519E672E900F72377 /* AppDelegate.m */; };
+		2F87E23219E672E900F72377 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 2F87E22619E672E900F72377 /* main.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -29,17 +29,17 @@
 /* Begin PBXFileReference section */
 		2F87E1E619E553EB00F72377 /* Weibo.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Weibo.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		2F87E1EA19E553EB00F72377 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
-		2F87E1EB19E553EB00F72377 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
-		2F87E1ED19E553EB00F72377 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
-		2F87E1EE19E553EB00F72377 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
 		2F87E1F119E553EB00F72377 /* Weibo.xcdatamodel */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcdatamodel; path = Weibo.xcdatamodel; sourceTree = "<group>"; };
 		2F87E1F919E553EB00F72377 /* Images.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Images.xcassets; sourceTree = "<group>"; };
 		2F87E1FC19E553EB00F72377 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = Base; path = Base.lproj/LaunchScreen.xib; sourceTree = "<group>"; };
 		2F87E20219E553EB00F72377 /* WeiboTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = WeiboTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		2F87E20719E553EB00F72377 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		2F87E20819E553EC00F72377 /* WeiboTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = WeiboTests.m; sourceTree = "<group>"; };
-		2F87E21219E5702A00F72377 /* ZYTabBarController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ZYTabBarController.h; sourceTree = "<group>"; };
-		2F87E21319E5702A00F72377 /* ZYTabBarController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ZYTabBarController.m; sourceTree = "<group>"; };
+		2F87E22019E672E900F72377 /* ZYTabBarController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ZYTabBarController.h; sourceTree = "<group>"; };
+		2F87E22119E672E900F72377 /* ZYTabBarController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ZYTabBarController.m; sourceTree = "<group>"; };
+		2F87E22419E672E900F72377 /* AppDelegate.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		2F87E22519E672E900F72377 /* AppDelegate.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		2F87E22619E672E900F72377 /* main.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -81,13 +81,7 @@
 		2F87E1E819E553EB00F72377 /* Weibo */ = {
 			isa = PBXGroup;
 			children = (
-				2F87E1ED19E553EB00F72377 /* AppDelegate.h */,
-				2F87E1EE19E553EB00F72377 /* AppDelegate.m */,
-				2F87E21219E5702A00F72377 /* ZYTabBarController.h */,
-				2F87E21319E5702A00F72377 /* ZYTabBarController.m */,
-				2F87E1F919E553EB00F72377 /* Images.xcassets */,
-				2F87E1FB19E553EB00F72377 /* LaunchScreen.xib */,
-				2F87E1F019E553EB00F72377 /* Weibo.xcdatamodeld */,
+				2F87E21519E672E900F72377 /* Classes */,
 				2F87E1E919E553EB00F72377 /* Supporting Files */,
 			);
 			path = Weibo;
@@ -96,8 +90,10 @@
 		2F87E1E919E553EB00F72377 /* Supporting Files */ = {
 			isa = PBXGroup;
 			children = (
+				2F87E1F919E553EB00F72377 /* Images.xcassets */,
+				2F87E1FB19E553EB00F72377 /* LaunchScreen.xib */,
+				2F87E1F019E553EB00F72377 /* Weibo.xcdatamodeld */,
 				2F87E1EA19E553EB00F72377 /* Info.plist */,
-				2F87E1EB19E553EB00F72377 /* main.m */,
 			);
 			name = "Supporting Files";
 			sourceTree = "<group>";
@@ -117,6 +113,186 @@
 				2F87E20719E553EB00F72377 /* Info.plist */,
 			);
 			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		2F87E21519E672E900F72377 /* Classes */ = {
+			isa = PBXGroup;
+			children = (
+				2F87E21619E672E900F72377 /* Discover */,
+				2F87E21A19E672E900F72377 /* Home */,
+				2F87E21E19E672E900F72377 /* Main */,
+				2F87E22819E672E900F72377 /* Message */,
+				2F87E22C19E672E900F72377 /* Profile */,
+			);
+			path = Classes;
+			sourceTree = "<group>";
+		};
+		2F87E21619E672E900F72377 /* Discover */ = {
+			isa = PBXGroup;
+			children = (
+				2F87E21719E672E900F72377 /* Controller */,
+				2F87E21819E672E900F72377 /* Model */,
+				2F87E21919E672E900F72377 /* View */,
+			);
+			path = Discover;
+			sourceTree = "<group>";
+		};
+		2F87E21719E672E900F72377 /* Controller */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Controller;
+			sourceTree = "<group>";
+		};
+		2F87E21819E672E900F72377 /* Model */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Model;
+			sourceTree = "<group>";
+		};
+		2F87E21919E672E900F72377 /* View */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = View;
+			sourceTree = "<group>";
+		};
+		2F87E21A19E672E900F72377 /* Home */ = {
+			isa = PBXGroup;
+			children = (
+				2F87E21B19E672E900F72377 /* Controller */,
+				2F87E21C19E672E900F72377 /* Model */,
+				2F87E21D19E672E900F72377 /* View */,
+			);
+			path = Home;
+			sourceTree = "<group>";
+		};
+		2F87E21B19E672E900F72377 /* Controller */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Controller;
+			sourceTree = "<group>";
+		};
+		2F87E21C19E672E900F72377 /* Model */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Model;
+			sourceTree = "<group>";
+		};
+		2F87E21D19E672E900F72377 /* View */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = View;
+			sourceTree = "<group>";
+		};
+		2F87E21E19E672E900F72377 /* Main */ = {
+			isa = PBXGroup;
+			children = (
+				2F87E21F19E672E900F72377 /* Controller */,
+				2F87E22219E672E900F72377 /* Model */,
+				2F87E22319E672E900F72377 /* Other */,
+				2F87E22719E672E900F72377 /* View */,
+			);
+			path = Main;
+			sourceTree = "<group>";
+		};
+		2F87E21F19E672E900F72377 /* Controller */ = {
+			isa = PBXGroup;
+			children = (
+				2F87E22019E672E900F72377 /* ZYTabBarController.h */,
+				2F87E22119E672E900F72377 /* ZYTabBarController.m */,
+			);
+			path = Controller;
+			sourceTree = "<group>";
+		};
+		2F87E22219E672E900F72377 /* Model */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Model;
+			sourceTree = "<group>";
+		};
+		2F87E22319E672E900F72377 /* Other */ = {
+			isa = PBXGroup;
+			children = (
+				2F87E22419E672E900F72377 /* AppDelegate.h */,
+				2F87E22519E672E900F72377 /* AppDelegate.m */,
+				2F87E22619E672E900F72377 /* main.m */,
+			);
+			path = Other;
+			sourceTree = "<group>";
+		};
+		2F87E22719E672E900F72377 /* View */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = View;
+			sourceTree = "<group>";
+		};
+		2F87E22819E672E900F72377 /* Message */ = {
+			isa = PBXGroup;
+			children = (
+				2F87E22919E672E900F72377 /* Controller */,
+				2F87E22A19E672E900F72377 /* Model */,
+				2F87E22B19E672E900F72377 /* View */,
+			);
+			path = Message;
+			sourceTree = "<group>";
+		};
+		2F87E22919E672E900F72377 /* Controller */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Controller;
+			sourceTree = "<group>";
+		};
+		2F87E22A19E672E900F72377 /* Model */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Model;
+			sourceTree = "<group>";
+		};
+		2F87E22B19E672E900F72377 /* View */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = View;
+			sourceTree = "<group>";
+		};
+		2F87E22C19E672E900F72377 /* Profile */ = {
+			isa = PBXGroup;
+			children = (
+				2F87E22D19E672E900F72377 /* Controller */,
+				2F87E22E19E672E900F72377 /* Model */,
+				2F87E22F19E672E900F72377 /* View */,
+			);
+			path = Profile;
+			sourceTree = "<group>";
+		};
+		2F87E22D19E672E900F72377 /* Controller */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Controller;
+			sourceTree = "<group>";
+		};
+		2F87E22E19E672E900F72377 /* Model */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Model;
+			sourceTree = "<group>";
+		};
+		2F87E22F19E672E900F72377 /* View */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = View;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -218,10 +394,10 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				2F87E1EF19E553EB00F72377 /* AppDelegate.m in Sources */,
-				2F87E1EC19E553EB00F72377 /* main.m in Sources */,
-				2F87E21419E5702A00F72377 /* ZYTabBarController.m in Sources */,
+				2F87E23019E672E900F72377 /* ZYTabBarController.m in Sources */,
 				2F87E1F219E553EB00F72377 /* Weibo.xcdatamodeld in Sources */,
+				2F87E23219E672E900F72377 /* main.m in Sources */,
+				2F87E23119E672E900F72377 /* AppDelegate.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -404,6 +580,7 @@
 				2F87E20E19E553EC00F72377 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		2F87E20F19E553EC00F72377 /* Build configuration list for PBXNativeTarget "WeiboTests" */ = {
 			isa = XCConfigurationList;
@@ -412,6 +589,7 @@
 				2F87E21119E553EC00F72377 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 
