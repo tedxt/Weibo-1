@@ -28,6 +28,8 @@
     self.window.rootViewController = tabBarController;
     
     [self.window makeKeyAndVisible];
+    
+    NSLog(@"Window Created!");
     return YES;
 }
 
