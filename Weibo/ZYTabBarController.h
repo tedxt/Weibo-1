@@ -1,5 +1,5 @@
 //
-//  ViewController.h
+//  ZYTabBarController.h
 //  Weibo
 //
 //  Created by zhangyang on 14-10-8.
@@ -8,8 +8,8 @@
 
 #import <UIKit/UIKit.h>
 
-@interface ViewController : UIViewController
+@interface ZYTabBarController : UITabBarController
+
 
 
 @end
-
