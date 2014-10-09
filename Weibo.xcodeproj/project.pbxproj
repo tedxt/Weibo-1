@@ -14,6 +14,10 @@
 		2F87E23019E672E900F72377 /* ZYTabBarController.m in Sources */ = {isa = PBXBuildFile; fileRef = 2F87E22119E672E900F72377 /* ZYTabBarController.m */; };
 		2F87E23119E672E900F72377 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 2F87E22519E672E900F72377 /* AppDelegate.m */; };
 		2F87E23219E672E900F72377 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 2F87E22619E672E900F72377 /* main.m */; };
+		2F87E26C19E6978300F72377 /* ZYHomeViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 2F87E26B19E6978300F72377 /* ZYHomeViewController.m */; };
+		2F87E27519E698AD00F72377 /* ZYMessageViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 2F87E27419E698AD00F72377 /* ZYMessageViewController.m */; };
+		2F87E27819E698CC00F72377 /* ZYDiscoverViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 2F87E27719E698CC00F72377 /* ZYDiscoverViewController.m */; };
+		2F87E27B19E6992900F72377 /* ZYProfileViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 2F87E27A19E6992900F72377 /* ZYProfileViewController.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -41,6 +45,14 @@
 		2F87E22519E672E900F72377 /* AppDelegate.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
 		2F87E22619E672E900F72377 /* main.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
 		2F87E26919E6843D00F72377 /* Weibo-Prefix.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "Weibo-Prefix.pch"; sourceTree = "<group>"; };
+		2F87E26A19E6978300F72377 /* ZYHomeViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ZYHomeViewController.h; sourceTree = "<group>"; };
+		2F87E26B19E6978300F72377 /* ZYHomeViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ZYHomeViewController.m; sourceTree = "<group>"; };
+		2F87E27319E698AD00F72377 /* ZYMessageViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ZYMessageViewController.h; sourceTree = "<group>"; };
+		2F87E27419E698AD00F72377 /* ZYMessageViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ZYMessageViewController.m; sourceTree = "<group>"; };
+		2F87E27619E698CC00F72377 /* ZYDiscoverViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ZYDiscoverViewController.h; sourceTree = "<group>"; };
+		2F87E27719E698CC00F72377 /* ZYDiscoverViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ZYDiscoverViewController.m; sourceTree = "<group>"; };
+		2F87E27919E6992900F72377 /* ZYProfileViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ZYProfileViewController.h; sourceTree = "<group>"; };
+		2F87E27A19E6992900F72377 /* ZYProfileViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ZYProfileViewController.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -120,10 +132,10 @@
 		2F87E21519E672E900F72377 /* Classes */ = {
 			isa = PBXGroup;
 			children = (
-				2F87E21619E672E900F72377 /* Discover */,
-				2F87E21A19E672E900F72377 /* Home */,
 				2F87E21E19E672E900F72377 /* Main */,
+				2F87E21A19E672E900F72377 /* Home */,
 				2F87E22819E672E900F72377 /* Message */,
+				2F87E21619E672E900F72377 /* Discover */,
 				2F87E22C19E672E900F72377 /* Profile */,
 			);
 			path = Classes;
@@ -142,6 +154,8 @@
 		2F87E21719E672E900F72377 /* Controller */ = {
 			isa = PBXGroup;
 			children = (
+				2F87E27619E698CC00F72377 /* ZYDiscoverViewController.h */,
+				2F87E27719E698CC00F72377 /* ZYDiscoverViewController.m */,
 			);
 			path = Controller;
 			sourceTree = "<group>";
@@ -173,6 +187,8 @@
 		2F87E21B19E672E900F72377 /* Controller */ = {
 			isa = PBXGroup;
 			children = (
+				2F87E26A19E6978300F72377 /* ZYHomeViewController.h */,
+				2F87E26B19E6978300F72377 /* ZYHomeViewController.m */,
 			);
 			path = Controller;
 			sourceTree = "<group>";
@@ -238,18 +254,11 @@
 		2F87E22819E672E900F72377 /* Message */ = {
 			isa = PBXGroup;
 			children = (
-				2F87E22919E672E900F72377 /* Controller */,
+				2F87E27219E698AD00F72377 /* Controller */,
 				2F87E22A19E672E900F72377 /* Model */,
 				2F87E22B19E672E900F72377 /* View */,
 			);
 			path = Message;
-			sourceTree = "<group>";
-		};
-		2F87E22919E672E900F72377 /* Controller */ = {
-			isa = PBXGroup;
-			children = (
-			);
-			path = Controller;
 			sourceTree = "<group>";
 		};
 		2F87E22A19E672E900F72377 /* Model */ = {
@@ -279,6 +288,8 @@
 		2F87E22D19E672E900F72377 /* Controller */ = {
 			isa = PBXGroup;
 			children = (
+				2F87E27919E6992900F72377 /* ZYProfileViewController.h */,
+				2F87E27A19E6992900F72377 /* ZYProfileViewController.m */,
 			);
 			path = Controller;
 			sourceTree = "<group>";
@@ -295,6 +306,15 @@
 			children = (
 			);
 			path = View;
+			sourceTree = "<group>";
+		};
+		2F87E27219E698AD00F72377 /* Controller */ = {
+			isa = PBXGroup;
+			children = (
+				2F87E27319E698AD00F72377 /* ZYMessageViewController.h */,
+				2F87E27419E698AD00F72377 /* ZYMessageViewController.m */,
+			);
+			path = Controller;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -397,10 +417,14 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				2F87E27819E698CC00F72377 /* ZYDiscoverViewController.m in Sources */,
 				2F87E23019E672E900F72377 /* ZYTabBarController.m in Sources */,
+				2F87E27519E698AD00F72377 /* ZYMessageViewController.m in Sources */,
 				2F87E1F219E553EB00F72377 /* Weibo.xcdatamodeld in Sources */,
+				2F87E26C19E6978300F72377 /* ZYHomeViewController.m in Sources */,
 				2F87E23219E672E900F72377 /* main.m in Sources */,
 				2F87E23119E672E900F72377 /* AppDelegate.m in Sources */,
+				2F87E27B19E6992900F72377 /* ZYProfileViewController.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};

@@ -7,6 +7,7 @@
 //
 
 #import "AppDelegate.h"
+#import "ZYTabBarController.h"
 
 @interface AppDelegate ()
 
@@ -20,11 +21,9 @@
     application.statusBarHidden = NO;
     
     self.window = [[UIWindow alloc] initWithFrame:[UIScreen mainScreen].bounds];
+    self.window.backgroundColor = [UIColor grayColor];
     
-    self.window.backgroundColor = [UIColor redColor];
-    
-    UITabBarController * tabBarController = [[UITabBarController alloc] init];
-    
+    ZYTabBarController * tabBarController = [[ZYTabBarController alloc] init];
     self.window.rootViewController = tabBarController;
     
     [self.window makeKeyAndVisible];
