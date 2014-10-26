@@ -11,10 +11,13 @@
 #import "ZYMessageViewController.h"
 #import "ZYDiscoverViewController.h"
 #import "ZYProfileViewController.h"
+#import "ZYTabBar.h"
 
-
-@interface ZYTabBarController ()
-
+@interface ZYTabBarController ()<ZYTabBarDelegate>
+/**
+ *  自定义选项卡
+ */
+@property (nonatomic, weak) ZYTabBar *customTabBar;
 @end
 
 @implementation ZYTabBarController
@@ -60,22 +63,66 @@
 }
 
 /**
- *  添加子控制器
+ *  添加子控制器-
  *
  *  @param childVc           需要添加的子控制器
  *  @param title             子控制器按钮的标题
  *  @param imageName         子控制器按钮默认状态图片
  *  @param selectedImageName 子控制器按钮选中状态图片
  */
-- (void)addChildViewController:(UIViewController *)subviewController title:(NSString *)title imageName:(NSString *)imageName selectedImageName:(NSString *)selectedImageName
+- (void)addChildViewController:(UIViewController *)childViewController title:(NSString *)title imageName:(NSString *)imageName selectedImageName:(NSString *)selectedImageName
 {
-    subviewController.view.backgroundColor = [UIColor greenColor];
-    subviewController.tabBarItem.title = title;
-    subviewController.tabBarItem.image = [UIImage imageNamed:imageName];
-    subviewController.tabBarItem.selectedImage = [UIImage imageNamed:selectedImageName];
-    [self addChildViewController:subviewController];
+    childViewController.view.backgroundColor = [UIColor whiteColor];
+    childViewController.tabBarItem.title = title;
+    childViewController.tabBarItem.image = [UIImage imageNamed:imageName];
+    
+    UIImage *selectedImage = [UIImage imageWithNmae:selectedImageName];
+    if (iOS7) {
+        selectedImage = [selectedImage imageWithRenderingMode:UIImageRenderingModeAlwaysOriginal];
+    }
+    childViewController.tabBarItem.selectedImage = selectedImage;
+    
+    self.tabBar.backgroundColor = [UIColor colorWithPatternImage:[UIImage imageWithNmae:@"tabbar_background_os7"]];
+    self.tabBar.tintColor = [UIColor whiteColor];
+    // 添加控制器到ZYTabBarController
+    [self addChildViewController:childViewController];
+    
+    // 添加自控制器对应的选项卡按钮
+    [self.customTabBar addTabBarButton: childViewController.tabBarItem];
 }
 
+
+
+- (void)viewDidLoad
+{
+    [super viewDidLoad];
+    
+    // 1.创建自定义TabBar
+    ZYTabBar *tabBar = [[ZYTabBar alloc]init];
+    tabBar.frame = self.tabBar.frame;
+    
+    // 设置代理
+    tabBar.delegate = self;
+    
+    [self.view addSubview:tabBar];
+    self.customTabBar = tabBar;
+    
+    // 2.删除系统自带的TabBar
+    [self.tabBar removeFromSuperview];
+    
+    // 通过子控制器的索引设置需要展示的控制器
+    //    self.selectedIndex = 3;
+    // 通过直接设置需要显示的子控制器器
+    //    self.selectedViewController = self.childViewControllers[3];
+}
+
+
+//- (void)tabBar:(IWTabBar *)tabBar selectedButtonIndex:(int)selectedIndex
+- (void)tabBar:(ZYTabBar *)tabBar from:(int)from to:(int)to
+{
+    NSLog(@"from = %d, to = %d", from, to);
+    self.selectedIndex = to;
+}
 
 
 - (void)didReceiveMemoryWarning {

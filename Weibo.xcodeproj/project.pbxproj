@@ -7,6 +7,9 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		2F3C64F019E9416E003BF213 /* UIView+ZY.m in Sources */ = {isa = PBXBuildFile; fileRef = 2F3C64EF19E9416E003BF213 /* UIView+ZY.m */; };
+		2F3C64F319E9425A003BF213 /* ZYTabBar.m in Sources */ = {isa = PBXBuildFile; fileRef = 2F3C64F219E9425A003BF213 /* ZYTabBar.m */; };
+		2F3C64F619E9426E003BF213 /* ZYTabBarButton.m in Sources */ = {isa = PBXBuildFile; fileRef = 2F3C64F519E9426E003BF213 /* ZYTabBarButton.m */; };
 		2F87E1F219E553EB00F72377 /* Weibo.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = 2F87E1F019E553EB00F72377 /* Weibo.xcdatamodeld */; };
 		2F87E1FA19E553EB00F72377 /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 2F87E1F919E553EB00F72377 /* Images.xcassets */; };
 		2F87E1FD19E553EB00F72377 /* LaunchScreen.xib in Resources */ = {isa = PBXBuildFile; fileRef = 2F87E1FB19E553EB00F72377 /* LaunchScreen.xib */; };
@@ -18,6 +21,7 @@
 		2F87E27519E698AD00F72377 /* ZYMessageViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 2F87E27419E698AD00F72377 /* ZYMessageViewController.m */; };
 		2F87E27819E698CC00F72377 /* ZYDiscoverViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 2F87E27719E698CC00F72377 /* ZYDiscoverViewController.m */; };
 		2F87E27B19E6992900F72377 /* ZYProfileViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 2F87E27A19E6992900F72377 /* ZYProfileViewController.m */; };
+		2F87E27F19E6C0BA00F72377 /* UIImage+ZY.m in Sources */ = {isa = PBXBuildFile; fileRef = 2F87E27E19E6C0BA00F72377 /* UIImage+ZY.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -31,6 +35,12 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		2F3C64EE19E9416E003BF213 /* UIView+ZY.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UIView+ZY.h"; sourceTree = "<group>"; };
+		2F3C64EF19E9416E003BF213 /* UIView+ZY.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIView+ZY.m"; sourceTree = "<group>"; };
+		2F3C64F119E9425A003BF213 /* ZYTabBar.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ZYTabBar.h; sourceTree = "<group>"; };
+		2F3C64F219E9425A003BF213 /* ZYTabBar.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ZYTabBar.m; sourceTree = "<group>"; };
+		2F3C64F419E9426E003BF213 /* ZYTabBarButton.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ZYTabBarButton.h; sourceTree = "<group>"; };
+		2F3C64F519E9426E003BF213 /* ZYTabBarButton.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ZYTabBarButton.m; sourceTree = "<group>"; };
 		2F87E1E619E553EB00F72377 /* Weibo.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Weibo.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		2F87E1EA19E553EB00F72377 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		2F87E1F119E553EB00F72377 /* Weibo.xcdatamodel */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcdatamodel; path = Weibo.xcdatamodel; sourceTree = "<group>"; };
@@ -53,6 +63,9 @@
 		2F87E27719E698CC00F72377 /* ZYDiscoverViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ZYDiscoverViewController.m; sourceTree = "<group>"; };
 		2F87E27919E6992900F72377 /* ZYProfileViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ZYProfileViewController.h; sourceTree = "<group>"; };
 		2F87E27A19E6992900F72377 /* ZYProfileViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ZYProfileViewController.m; sourceTree = "<group>"; };
+		2F87E27D19E6C0BA00F72377 /* UIImage+ZY.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UIImage+ZY.h"; sourceTree = "<group>"; };
+		2F87E27E19E6C0BA00F72377 /* UIImage+ZY.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIImage+ZY.m"; sourceTree = "<group>"; };
+		2FA3E10E19FA2E8E00B21243 /* zh-Hans */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = "zh-Hans"; path = "zh-Hans.lproj/LaunchScreen.strings"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -210,6 +223,7 @@
 		2F87E21E19E672E900F72377 /* Main */ = {
 			isa = PBXGroup;
 			children = (
+				2F87E27C19E6C07900F72377 /* Category */,
 				2F87E21F19E672E900F72377 /* Controller */,
 				2F87E22219E672E900F72377 /* Model */,
 				2F87E22319E672E900F72377 /* Other */,
@@ -247,6 +261,10 @@
 		2F87E22719E672E900F72377 /* View */ = {
 			isa = PBXGroup;
 			children = (
+				2F3C64F119E9425A003BF213 /* ZYTabBar.h */,
+				2F3C64F219E9425A003BF213 /* ZYTabBar.m */,
+				2F3C64F419E9426E003BF213 /* ZYTabBarButton.h */,
+				2F3C64F519E9426E003BF213 /* ZYTabBarButton.m */,
 			);
 			path = View;
 			sourceTree = "<group>";
@@ -315,6 +333,17 @@
 				2F87E27419E698AD00F72377 /* ZYMessageViewController.m */,
 			);
 			path = Controller;
+			sourceTree = "<group>";
+		};
+		2F87E27C19E6C07900F72377 /* Category */ = {
+			isa = PBXGroup;
+			children = (
+				2F87E27D19E6C0BA00F72377 /* UIImage+ZY.h */,
+				2F87E27E19E6C0BA00F72377 /* UIImage+ZY.m */,
+				2F3C64EE19E9416E003BF213 /* UIView+ZY.h */,
+				2F3C64EF19E9416E003BF213 /* UIView+ZY.m */,
+			);
+			path = Category;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -418,13 +447,17 @@
 			buildActionMask = 2147483647;
 			files = (
 				2F87E27819E698CC00F72377 /* ZYDiscoverViewController.m in Sources */,
+				2F3C64F019E9416E003BF213 /* UIView+ZY.m in Sources */,
 				2F87E23019E672E900F72377 /* ZYTabBarController.m in Sources */,
 				2F87E27519E698AD00F72377 /* ZYMessageViewController.m in Sources */,
 				2F87E1F219E553EB00F72377 /* Weibo.xcdatamodeld in Sources */,
 				2F87E26C19E6978300F72377 /* ZYHomeViewController.m in Sources */,
+				2F3C64F619E9426E003BF213 /* ZYTabBarButton.m in Sources */,
 				2F87E23219E672E900F72377 /* main.m in Sources */,
 				2F87E23119E672E900F72377 /* AppDelegate.m in Sources */,
+				2F3C64F319E9425A003BF213 /* ZYTabBar.m in Sources */,
 				2F87E27B19E6992900F72377 /* ZYProfileViewController.m in Sources */,
+				2F87E27F19E6C0BA00F72377 /* UIImage+ZY.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -451,6 +484,7 @@
 			isa = PBXVariantGroup;
 			children = (
 				2F87E1FC19E553EB00F72377 /* Base */,
+				2FA3E10E19FA2E8E00B21243 /* zh-Hans */,
 			);
 			name = LaunchScreen.xib;
 			sourceTree = "<group>";
@@ -492,7 +526,7 @@
 				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
 				GCC_WARN_UNUSED_FUNCTION = YES;
 				GCC_WARN_UNUSED_VARIABLE = YES;
-				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				IPHONEOS_DEPLOYMENT_TARGET = 7.1;
 				MTL_ENABLE_DEBUG_INFO = YES;
 				ONLY_ACTIVE_ARCH = YES;
 				SDKROOT = iphoneos;
@@ -527,7 +561,7 @@
 				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
 				GCC_WARN_UNUSED_FUNCTION = YES;
 				GCC_WARN_UNUSED_VARIABLE = YES;
-				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				IPHONEOS_DEPLOYMENT_TARGET = 7.1;
 				MTL_ENABLE_DEBUG_INFO = NO;
 				SDKROOT = iphoneos;
 				VALIDATE_PRODUCT = YES;
@@ -538,11 +572,14 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_IDENTITY = "iPhone Developer: quanlan huang (8AS2W7BG45)";
 				GCC_PRECOMPILE_PREFIX_HEADER = YES;
 				GCC_PREFIX_HEADER = "Weibo/Weibo-Prefix.pch";
 				INFOPLIST_FILE = Weibo/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				PROVISIONING_PROFILE = "fb548024-c37c-43a1-92f0-23c1f1de4ff6";
+				RUN_CLANG_STATIC_ANALYZER = NO;
 			};
 			name = Debug;
 		};
@@ -550,11 +587,14 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_IDENTITY = "iPhone Developer: quanlan huang (8AS2W7BG45)";
 				GCC_PRECOMPILE_PREFIX_HEADER = YES;
 				GCC_PREFIX_HEADER = "Weibo/Weibo-Prefix.pch";
 				INFOPLIST_FILE = Weibo/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				PROVISIONING_PROFILE = "fb548024-c37c-43a1-92f0-23c1f1de4ff6";
+				RUN_CLANG_STATIC_ANALYZER = NO;
 			};
 			name = Release;
 		};
@@ -602,7 +642,7 @@
 				2F87E20B19E553EC00F72377 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
-			defaultConfigurationName = Release;
+			defaultConfigurationName = Debug;
 		};
 		2F87E20C19E553EC00F72377 /* Build configuration list for PBXNativeTarget "Weibo" */ = {
 			isa = XCConfigurationList;
@@ -611,7 +651,7 @@
 				2F87E20E19E553EC00F72377 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
-			defaultConfigurationName = Release;
+			defaultConfigurationName = Debug;
 		};
 		2F87E20F19E553EC00F72377 /* Build configuration list for PBXNativeTarget "WeiboTests" */ = {
 			isa = XCConfigurationList;
@@ -620,7 +660,7 @@
 				2F87E21119E553EC00F72377 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
-			defaultConfigurationName = Release;
+			defaultConfigurationName = Debug;
 		};
 /* End XCConfigurationList section */
 

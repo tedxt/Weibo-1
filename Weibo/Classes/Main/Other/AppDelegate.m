@@ -27,9 +27,13 @@
     self.window.rootViewController = tabBarController;
     
     [self.window makeKeyAndVisible];
-    
+    for (int i = 0; i<10; i++) {
+        NSLog(@"%d", i);
+    }
+
     NSLog(@"Window Created!");
     return YES;
+    
 }
 
 - (void)applicationWillResignActive:(UIApplication *)application {
